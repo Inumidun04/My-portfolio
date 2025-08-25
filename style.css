@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.genLayout{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    border: 2px solid;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.imgIsrael{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.hamburger, #toggle{
+ display: none;
+}
+   
+    
+
+.name{
+    color: #fff;
+}
+
+.nav{
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navRight > a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+.navRight>a>span{
+    padding: .5rem 1rem;
+    background-color: burlywood;
+    color: black;
+}
+
+.freelance{
+    color: burlywood;
+    text-align: center;
+    padding-top: 10rem;
+    text-transform: uppercase;
+
+}
+
+.mainCon{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: .3rem;
+}
+
+.tools{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: .3rem;
+    margin-left: 33rem;
+    padding-top: 1rem;
+}
+
+.tools>h6>span{
+    color: burlywood;
+}
+
+.portfolioButt{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+button{
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+    color: black;
+    background-color: burlywood;
+}
+
+button>span{
+    border: 1px solid ;
+    border-radius: 100%;
+    padding: .4rem .5rem;
+}
+
+@media (min-width:320px) and (max-width:500px){
+
+    nav{
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    #toggle:checked + .navRight{
+        display: block;
+        transform: none;
+    }
+
+    .navRight{
+        display: none;
+        position: absolute;
+        width: 85%;
+        padding: 1.4rem 1rem;
+        top: 3rem;
+        right: 3px;
+        z-index: 1;
+        background-color: dimgray;
+        opacity: 0.8;
+        border-bottom: 4px solid #fff;
+        transform: translate(100% 0);
+        transition: transform 0.5s cubic-bezier(0.077, 0.2, 0.05, 1);
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+.navRight>a{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    margin: auto;
+}
+}
