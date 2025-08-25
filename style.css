@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 *{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Merienda", cursive;
 }
 
 .genLayout{
@@ -13,7 +16,7 @@ header{
     border: 2px solid;
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #2A2B2A;
 }
 
 .imgIsrael{
@@ -45,12 +48,13 @@ header{
 }
 .navRight>a>span{
     padding: .5rem 1rem;
-    background-color: burlywood;
+    background-color: #F5F749;
     color: black;
+    border-radius: 10px;
 }
 
 .freelance{
-    color: burlywood;
+    color: #F5F749;
     text-align: center;
     padding-top: 10rem;
     text-transform: uppercase;
@@ -74,7 +78,7 @@ header{
 }
 
 .tools>h6>span{
-    color: burlywood;
+    color: #F5F749;
 }
 
 .portfolioButt{
@@ -83,10 +87,12 @@ header{
 }
 
 button{
-    padding: .5rem 1rem;
+    border: none;
+    padding: .7rem 1rem;
     text-transform: capitalize;
     color: black;
-    background-color: burlywood;
+    background-color: #F5F749;
+    border-radius: 10px;
 }
 
 button>span{
