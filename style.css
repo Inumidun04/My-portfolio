@@ -136,6 +136,12 @@ button>span{
         flex-direction: column; */
     }
 
+    .tools{
+        width: calc(100% - 40px);
+        margin: auto;
+        padding-left: 6rem;
+    }
+
 .navRight>a{
     display: flex;
     flex-direction: column;
