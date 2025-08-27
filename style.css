@@ -249,7 +249,7 @@ button>span{
 }
 .header{
     background-color: #2d2e2d;
-    height: 200vh;
+    height: 185vh;
 }
 .Myname{
     width: calc(100% - 40px);
@@ -265,17 +265,17 @@ button>span{
 }
 
 .about>h1{
-    padding-top: 5rem;
+    padding-top: 6rem;
+    font-size: 1.7rem;
 }
 .aboutCon2{
     font-size: .7rem;
+    padding-top: 2rem;
 }
 
 .aboutCon3{
     width: calc(100% - 40px);
-    padding-top: 30rem;
-    display: grid;
-    grid-template-columns: 2fr;
+    padding-top: 35rem;
     font-size: 1rem;
     gap: 1rem;
     margin: auto;
