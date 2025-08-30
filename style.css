@@ -466,4 +466,33 @@ form > button{
     gap: 1rem;
     margin: auto;
 }
+
+.connect{
+    /* width: calc(100% - 40px); */
+    flex-direction: column;
+    height: 185vh;
+    gap: 0;
+    background-color: #2d2e2d;
+}
+
+.me{
+    /* width: calc(100% - 40px); */
+    /* margin: auto; */
+    font-size: 1.9rem;
+}
+
+.EP{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form{
+    width: calc(100% - 40px);
+    font-size: 1rem;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }
