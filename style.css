@@ -70,7 +70,8 @@ header{
     padding-top: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30rem;
 }
 
 .profileImg > img{
@@ -381,6 +382,9 @@ form > button{
         display: block;
         transform: none;
     }
+    header{
+        height: 135vh;
+    }
 
     .navRight{
         display: none;
@@ -418,10 +422,11 @@ form > button{
 }
 
 .main{
-    flex-direction: column;
+    flex-direction: column-reverse;
     background-color: #2A2B2A;
-    height: 130vh;
+    height: 115vh;
     width: 100%;
+    gap: 0rem;
 }
 
 .profileImg>img{
