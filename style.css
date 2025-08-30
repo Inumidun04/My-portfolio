@@ -366,7 +366,6 @@ form > button{
 
 
 @media (min-width:320px) and (max-width:500px){
-
     .nav{
         width: calc(100% - 40px);
         margin: auto;
@@ -478,6 +477,7 @@ form > button{
     height: 185vh;
     gap: 0;
     background-color: #2d2e2d;
+    
 }
 
 .me{
@@ -499,5 +499,9 @@ form{
 .form{
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.phone>h6{
+    color: #fff;
 }
 }
