@@ -556,4 +556,16 @@ form{
 .phone>h6{
     color: #fff;
 }
+
+.portfolio{
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ballet{
+    width: 370px;
+    
+}
 }
