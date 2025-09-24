@@ -363,6 +363,58 @@ form > button{
     padding-left: 1rem;
 }
 
+.secOne{
+    padding-top: 6rem;
+    color: #fff;
+}
+
+.frontend{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.frontend > h6 > span{
+    color: #F5F749;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ballet{
+    box-shadow: .1rem .1rem 20px #4d4e4d;
+    border-radius: 20px;
+    /* border: 2px solid; */
+    padding: 1rem .5rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    width: 560px;
+    gap: 1rem;
+}
+
+.balletCon > a > span{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.balletCon > a{
+    color: #fff;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.balletCon > p{
+    font-size: .7rem;
+}
+
+.ballet > img{
+    box-shadow: .1rem .1rem 20px #4d4e4d;
+}
 
 
 @media (min-width:320px) and (max-width:500px){
